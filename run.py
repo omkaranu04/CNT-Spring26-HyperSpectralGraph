@@ -1,6 +1,11 @@
 import subprocess
 import sys
 
+# setting signal handlers to prevent accidental termination
+import signal
+signal.signal(signal.SIGTERM, signal.SIG_IGN)
+signal.signal(signal.SIGINT, signal.SIG_IGN)
+
 experiments = [
     ("COVID",        32, 128, 10, 32, "1e-4", 100),
     ("ECG",          16, 128, 2,  32, "1e-4", 100),
