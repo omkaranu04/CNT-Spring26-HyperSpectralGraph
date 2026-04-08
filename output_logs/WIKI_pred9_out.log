@@ -1,0 +1,121 @@
+Using device: cuda
+Dataset: WIKI | N = 2000 | T_in=12 | T_out=9
+Model: FreqTimeHPG | Total params: 62027 | Trainable params: 62027
+Epoch 001/100 | train_loss 0.021549 | val_MAPE 1.7479 | val_MAE 0.089409 | val_RMSE 1.311738
+---> best val_MAE = 0.089409 (epoch 1)
+Epoch 002/100 | train_loss 0.011436 | val_MAPE 1.7894 | val_MAE 0.083719 | val_RMSE 1.307553
+---> best val_MAE = 0.083719 (epoch 2)
+Epoch 003/100 | train_loss 0.009860 | val_MAPE 1.3826 | val_MAE 0.077018 | val_RMSE 1.307521
+---> best val_MAE = 0.077018 (epoch 3)
+Epoch 004/100 | train_loss 0.008990 | val_MAPE 1.8114 | val_MAE 0.079400 | val_RMSE 1.308695
+Epoch 005/100 | train_loss 0.008454 | val_MAPE 1.4001 | val_MAE 0.073631 | val_RMSE 1.311077
+---> best val_MAE = 0.073631 (epoch 5)
+Epoch 006/100 | train_loss 0.007993 | val_MAPE 1.5564 | val_MAE 0.072964 | val_RMSE 1.313726
+---> best val_MAE = 0.072964 (epoch 6)
+Epoch 007/100 | train_loss 0.007787 | val_MAPE 1.1637 | val_MAE 0.069241 | val_RMSE 1.317044
+---> best val_MAE = 0.069241 (epoch 7)
+Epoch 008/100 | train_loss 0.007470 | val_MAPE 1.6679 | val_MAE 0.072759 | val_RMSE 1.320674
+Epoch 009/100 | train_loss 0.007283 | val_MAPE 1.3976 | val_MAE 0.069731 | val_RMSE 1.323972
+Epoch 010/100 | train_loss 0.007189 | val_MAPE 1.1391 | val_MAE 0.068029 | val_RMSE 1.327355
+---> best val_MAE = 0.068029 (epoch 10)
+Epoch 011/100 | train_loss 0.007046 | val_MAPE 1.6730 | val_MAE 0.071649 | val_RMSE 1.331237
+Epoch 012/100 | train_loss 0.006921 | val_MAPE 1.1889 | val_MAE 0.067288 | val_RMSE 1.334434
+---> best val_MAE = 0.067288 (epoch 12)
+Epoch 013/100 | train_loss 0.006860 | val_MAPE 1.2981 | val_MAE 0.068240 | val_RMSE 1.337563
+Epoch 014/100 | train_loss 0.006738 | val_MAPE 1.5417 | val_MAE 0.070492 | val_RMSE 1.340714
+Epoch 015/100 | train_loss 0.006754 | val_MAPE 1.3347 | val_MAE 0.068356 | val_RMSE 1.343041
+Epoch 016/100 | train_loss 0.006697 | val_MAPE 1.7976 | val_MAE 0.073033 | val_RMSE 1.345696
+Epoch 017/100 | train_loss 0.006645 | val_MAPE 1.1582 | val_MAE 0.066596 | val_RMSE 1.347916
+---> best val_MAE = 0.066596 (epoch 17)
+Epoch 018/100 | train_loss 0.006597 | val_MAPE 1.5906 | val_MAE 0.070891 | val_RMSE 1.349834
+Epoch 019/100 | train_loss 0.006552 | val_MAPE 1.5741 | val_MAE 0.070575 | val_RMSE 1.351447
+Epoch 020/100 | train_loss 0.006610 | val_MAPE 1.1817 | val_MAE 0.067154 | val_RMSE 1.352712
+Epoch 021/100 | train_loss 0.006504 | val_MAPE 1.5629 | val_MAE 0.070496 | val_RMSE 1.354549
+Epoch 022/100 | train_loss 0.006489 | val_MAPE 0.9787 | val_MAE 0.065780 | val_RMSE 1.355282
+---> best val_MAE = 0.065780 (epoch 22)
+Epoch 023/100 | train_loss 0.006534 | val_MAPE 1.4527 | val_MAE 0.069063 | val_RMSE 1.356457
+Epoch 024/100 | train_loss 0.006436 | val_MAPE 1.0231 | val_MAE 0.066189 | val_RMSE 1.356508
+Epoch 025/100 | train_loss 0.006489 | val_MAPE 1.6609 | val_MAE 0.072373 | val_RMSE 1.358399
+Epoch 026/100 | train_loss 0.006471 | val_MAPE 1.1606 | val_MAE 0.066981 | val_RMSE 1.358513
+Epoch 027/100 | train_loss 0.006427 | val_MAPE 1.5545 | val_MAE 0.070990 | val_RMSE 1.359721
+Epoch 028/100 | train_loss 0.006382 | val_MAPE 1.2230 | val_MAE 0.066800 | val_RMSE 1.359299
+Epoch 029/100 | train_loss 0.006443 | val_MAPE 1.5760 | val_MAE 0.070817 | val_RMSE 1.360841
+Epoch 030/100 | train_loss 0.006370 | val_MAPE 1.3430 | val_MAE 0.067936 | val_RMSE 1.361041
+Epoch 031/100 | train_loss 0.006388 | val_MAPE 1.5923 | val_MAE 0.071733 | val_RMSE 1.362178
+Epoch 032/100 | train_loss 0.006383 | val_MAPE 1.1333 | val_MAE 0.066580 | val_RMSE 1.361471
+Epoch 033/100 | train_loss 0.006342 | val_MAPE 1.6549 | val_MAE 0.071015 | val_RMSE 1.362376
+Epoch 034/100 | train_loss 0.006226 | val_MAPE 1.3731 | val_MAE 0.067554 | val_RMSE 1.362787
+Epoch 035/100 | train_loss 0.006217 | val_MAPE 1.3549 | val_MAE 0.067378 | val_RMSE 1.362936
+Epoch 036/100 | train_loss 0.006210 | val_MAPE 1.3689 | val_MAE 0.067506 | val_RMSE 1.363357
+Epoch 037/100 | train_loss 0.006224 | val_MAPE 1.4394 | val_MAE 0.068594 | val_RMSE 1.363566
+Epoch 038/100 | train_loss 0.006218 | val_MAPE 1.2425 | val_MAE 0.066502 | val_RMSE 1.363678
+Epoch 039/100 | train_loss 0.006206 | val_MAPE 1.3813 | val_MAE 0.067612 | val_RMSE 1.364061
+Epoch 040/100 | train_loss 0.006216 | val_MAPE 1.2618 | val_MAE 0.066748 | val_RMSE 1.363881
+Epoch 041/100 | train_loss 0.006207 | val_MAPE 1.5608 | val_MAE 0.070261 | val_RMSE 1.364449
+Epoch 042/100 | train_loss 0.006218 | val_MAPE 1.5009 | val_MAE 0.068874 | val_RMSE 1.364534
+Epoch 043/100 | train_loss 0.006185 | val_MAPE 1.0439 | val_MAE 0.065778 | val_RMSE 1.364358
+---> best val_MAE = 0.065778 (epoch 43)
+Epoch 044/100 | train_loss 0.006226 | val_MAPE 1.4946 | val_MAE 0.069166 | val_RMSE 1.364941
+Epoch 045/100 | train_loss 0.006156 | val_MAPE 1.4309 | val_MAE 0.068006 | val_RMSE 1.365064
+Epoch 046/100 | train_loss 0.006147 | val_MAPE 1.3384 | val_MAE 0.067217 | val_RMSE 1.365144
+Epoch 047/100 | train_loss 0.006146 | val_MAPE 1.3547 | val_MAE 0.067360 | val_RMSE 1.365216
+Epoch 048/100 | train_loss 0.006146 | val_MAPE 1.3486 | val_MAE 0.067305 | val_RMSE 1.365296
+Epoch 049/100 | train_loss 0.006143 | val_MAPE 1.3536 | val_MAE 0.067347 | val_RMSE 1.365270
+Epoch 050/100 | train_loss 0.006136 | val_MAPE 1.3515 | val_MAE 0.067245 | val_RMSE 1.365289
+Epoch 051/100 | train_loss 0.006144 | val_MAPE 1.2389 | val_MAE 0.066385 | val_RMSE 1.365179
+Epoch 052/100 | train_loss 0.006148 | val_MAPE 1.4828 | val_MAE 0.068765 | val_RMSE 1.365419
+Epoch 053/100 | train_loss 0.006137 | val_MAPE 1.4099 | val_MAE 0.067704 | val_RMSE 1.365310
+Epoch 054/100 | train_loss 0.006128 | val_MAPE 1.2897 | val_MAE 0.066821 | val_RMSE 1.365449
+Epoch 055/100 | train_loss 0.006137 | val_MAPE 1.2580 | val_MAE 0.066626 | val_RMSE 1.365315
+Epoch 056/100 | train_loss 0.006121 | val_MAPE 1.3921 | val_MAE 0.067630 | val_RMSE 1.365442
+Epoch 057/100 | train_loss 0.006118 | val_MAPE 1.4154 | val_MAE 0.067852 | val_RMSE 1.365564
+Epoch 058/100 | train_loss 0.006116 | val_MAPE 1.4028 | val_MAE 0.067713 | val_RMSE 1.365624
+Epoch 059/100 | train_loss 0.006114 | val_MAPE 1.3995 | val_MAE 0.067678 | val_RMSE 1.365581
+Epoch 060/100 | train_loss 0.006115 | val_MAPE 1.3601 | val_MAE 0.067337 | val_RMSE 1.365550
+Epoch 061/100 | train_loss 0.006112 | val_MAPE 1.3131 | val_MAE 0.066944 | val_RMSE 1.365568
+Epoch 062/100 | train_loss 0.006112 | val_MAPE 1.4295 | val_MAE 0.067981 | val_RMSE 1.365641
+Epoch 063/100 | train_loss 0.006108 | val_MAPE 1.3406 | val_MAE 0.067161 | val_RMSE 1.365606
+Epoch 064/100 | train_loss 0.006111 | val_MAPE 1.3441 | val_MAE 0.067102 | val_RMSE 1.365506
+Epoch 065/100 | train_loss 0.006106 | val_MAPE 1.3225 | val_MAE 0.066972 | val_RMSE 1.365550
+Epoch 066/100 | train_loss 0.006108 | val_MAPE 1.2924 | val_MAE 0.066721 | val_RMSE 1.365460
+Epoch 067/100 | train_loss 0.006103 | val_MAPE 1.3329 | val_MAE 0.067039 | val_RMSE 1.365497
+Epoch 068/100 | train_loss 0.006101 | val_MAPE 1.3559 | val_MAE 0.067263 | val_RMSE 1.365540
+Epoch 069/100 | train_loss 0.006100 | val_MAPE 1.3592 | val_MAE 0.067263 | val_RMSE 1.365524
+Epoch 070/100 | train_loss 0.006100 | val_MAPE 1.3664 | val_MAE 0.067343 | val_RMSE 1.365551
+Epoch 071/100 | train_loss 0.006098 | val_MAPE 1.3459 | val_MAE 0.067124 | val_RMSE 1.365546
+Epoch 072/100 | train_loss 0.006097 | val_MAPE 1.3544 | val_MAE 0.067196 | val_RMSE 1.365545
+Epoch 073/100 | train_loss 0.006098 | val_MAPE 1.3408 | val_MAE 0.067031 | val_RMSE 1.365512
+Epoch 074/100 | train_loss 0.006096 | val_MAPE 1.3602 | val_MAE 0.067281 | val_RMSE 1.365535
+Epoch 075/100 | train_loss 0.006098 | val_MAPE 1.3645 | val_MAE 0.067307 | val_RMSE 1.365531
+Epoch 076/100 | train_loss 0.006095 | val_MAPE 1.3263 | val_MAE 0.066981 | val_RMSE 1.365509
+Epoch 077/100 | train_loss 0.006093 | val_MAPE 1.3526 | val_MAE 0.067146 | val_RMSE 1.365513
+Epoch 078/100 | train_loss 0.006092 | val_MAPE 1.3627 | val_MAE 0.067283 | val_RMSE 1.365521
+Epoch 079/100 | train_loss 0.006091 | val_MAPE 1.3413 | val_MAE 0.067061 | val_RMSE 1.365508
+Epoch 080/100 | train_loss 0.006091 | val_MAPE 1.3478 | val_MAE 0.067130 | val_RMSE 1.365513
+Epoch 081/100 | train_loss 0.006091 | val_MAPE 1.3409 | val_MAE 0.067062 | val_RMSE 1.365501
+Epoch 082/100 | train_loss 0.006089 | val_MAPE 1.3424 | val_MAE 0.067094 | val_RMSE 1.365510
+Epoch 083/100 | train_loss 0.006089 | val_MAPE 1.3255 | val_MAE 0.066976 | val_RMSE 1.365505
+Epoch 084/100 | train_loss 0.006090 | val_MAPE 1.3622 | val_MAE 0.067283 | val_RMSE 1.365523
+Epoch 085/100 | train_loss 0.006088 | val_MAPE 1.3466 | val_MAE 0.067072 | val_RMSE 1.365501
+Epoch 086/100 | train_loss 0.006090 | val_MAPE 1.3600 | val_MAE 0.067240 | val_RMSE 1.365509
+Epoch 087/100 | train_loss 0.006087 | val_MAPE 1.3743 | val_MAE 0.067364 | val_RMSE 1.365527
+Epoch 088/100 | train_loss 0.006087 | val_MAPE 1.3380 | val_MAE 0.066995 | val_RMSE 1.365500
+Epoch 089/100 | train_loss 0.006086 | val_MAPE 1.3403 | val_MAE 0.067046 | val_RMSE 1.365503
+Epoch 090/100 | train_loss 0.006087 | val_MAPE 1.3555 | val_MAE 0.067185 | val_RMSE 1.365511
+Epoch 091/100 | train_loss 0.006087 | val_MAPE 1.3454 | val_MAE 0.067084 | val_RMSE 1.365501
+Epoch 092/100 | train_loss 0.006087 | val_MAPE 1.3657 | val_MAE 0.067289 | val_RMSE 1.365517
+Epoch 093/100 | train_loss 0.006085 | val_MAPE 1.3244 | val_MAE 0.066933 | val_RMSE 1.365496
+Epoch 094/100 | train_loss 0.006087 | val_MAPE 1.3486 | val_MAE 0.067119 | val_RMSE 1.365505
+Epoch 095/100 | train_loss 0.006086 | val_MAPE 1.3451 | val_MAE 0.067099 | val_RMSE 1.365501
+Epoch 096/100 | train_loss 0.006085 | val_MAPE 1.3386 | val_MAE 0.067030 | val_RMSE 1.365492
+Epoch 097/100 | train_loss 0.006086 | val_MAPE 1.3246 | val_MAE 0.066918 | val_RMSE 1.365483
+Epoch 098/100 | train_loss 0.006084 | val_MAPE 1.3421 | val_MAE 0.067042 | val_RMSE 1.365493
+Epoch 099/100 | train_loss 0.006087 | val_MAPE 1.3376 | val_MAE 0.066987 | val_RMSE 1.365486
+Epoch 100/100 | train_loss 0.006084 | val_MAPE 1.3484 | val_MAE 0.067106 | val_RMSE 1.365493
+
+============================================================
+Test Results (best val-MAE checkpoint)
+MAPE : 1.144713
+MAE  : 0.038564
+RMSE : 0.256128
+============================================================
