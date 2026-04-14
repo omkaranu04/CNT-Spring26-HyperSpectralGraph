@@ -6,7 +6,7 @@ from tqdm import tqdm
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from argument import get_args
 from src.data_provider import data_provider
-from src.model import FreqTimeHPG
+from src.model import HSG
 from src.utils import set_seed, evaluate
 
 def train_epoch(model, loader, optimizer, criterion, device):
@@ -48,7 +48,7 @@ def main(args=None):
     print(f"Dataset: {args.data_name} | N = {num_nodes} | "
           f"T_in={args.seq_len} | T_out={args.pred_len}")
     
-    model = FreqTimeHPG(
+    model = HSG(
         seq_len=args.seq_len, pred_len=args.pred_len, signal_len=args.signal_len,
         num_nodes=num_nodes, embed_size=args.embed_size, hidden_size=args.hidden_size,
         k=args.k, s=args.s, frame_type=args.frame_type, cheb_order=args.cheb_order,
@@ -57,7 +57,7 @@ def main(args=None):
     model = model.to(device)
     total_params = sum(p.numel() for p in model.parameters())
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
-    print(f"Model: FreqTimeHPG | Total params: {total_params} | Trainable params: {trainable_params}")
+    print(f"Model: HSG | Total params: {total_params} | Trainable params: {trainable_params}")
     optimizer = torch.optim.RMSprop(model.parameters(), lr=args.learning_rate, weight_decay=args.decay_rate)
     scheduler = ReduceLROnPlateau(optimizer, mode='min', patience=10, factor=0.5)
     criterion = nn.MSELoss()

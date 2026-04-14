@@ -1,6 +1,6 @@
 Using device: cuda
 Dataset: WIKI | N = 2000 | T_in=12 | T_out=3
-Model: FreqTimeHPG | Total params: 61253 | Trainable params: 61253
+Model: HSG | Total params: 61253 | Trainable params: 61253
 Epoch 001/100 | train_loss 0.021132 | val_MAPE 2.0212 | val_MAE 0.092153 | val_RMSE 1.394858
 ---> best val_MAE = 0.092153 (epoch 1)
 Epoch 002/100 | train_loss 0.010349 | val_MAPE 1.2987 | val_MAE 0.076503 | val_RMSE 1.386710

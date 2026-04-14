@@ -98,7 +98,7 @@ class FrameletLayer(nn.Module):
             out = out + self.theta[i] * filtered
         return self.act(self.W(out))
 
-class FreqTimeHPG(nn.Module):
+class HSG(nn.Module):
     def __init__(
         self,
         seq_len: int = 12,

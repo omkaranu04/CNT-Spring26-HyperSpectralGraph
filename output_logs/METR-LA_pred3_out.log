@@ -1,6 +1,6 @@
 Using device: cuda
 Dataset: METR-LA | N = 207 | T_in=12 | T_out=3
-Model: FreqTimeHPG | Total params: 54081 | Trainable params: 54081
+Model: HSG | Total params: 54081 | Trainable params: 54081
 Epoch 001/100 | train_loss 0.026738 | val_MAPE 0.4608 | val_MAE 0.062253 | val_RMSE 0.126500
 ---> best val_MAE = 0.062253 (epoch 1)
 Epoch 002/100 | train_loss 0.013294 | val_MAPE 0.4563 | val_MAE 0.059824 | val_RMSE 0.121474

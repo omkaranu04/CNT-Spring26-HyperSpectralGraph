@@ -2,7 +2,7 @@ import argparse
 import torch
 
 def get_args(args_list=None):
-    parser = argparse.ArgumentParser(description='FreqTimeHPG improved')
+    parser = argparse.ArgumentParser(description='HSG improved')
 
     parser.add_argument('--root_path', type=str, default='./data/')
     parser.add_argument('--data_name', type=str)

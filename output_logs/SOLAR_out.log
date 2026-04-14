@@ -1,6 +1,6 @@
 Using device: cuda
 Dataset: SOLAR | N = 592 | T_in=12 | T_out=12
-Model: FreqTimeHPG | Total params: 56782 | Trainable params: 56782
+Model: HSG | Total params: 56782 | Trainable params: 56782
 Epoch 001/100 | train_loss 0.069820 | val_MAPE 0.7193 | val_MAE 0.138456 | val_RMSE 0.184274
 ---> best val_MAE = 0.138456 (epoch 1)
 Epoch 002/100 | train_loss 0.033258 | val_MAPE 0.6944 | val_MAE 0.128348 | val_RMSE 0.172747

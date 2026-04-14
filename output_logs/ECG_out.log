@@ -1,6 +1,6 @@
 Using device: cuda
 Dataset: ECG | N = 140 | T_in=12 | T_out=12
-Model: FreqTimeHPG | Total params: 54974 | Trainable params: 54974
+Model: HSG | Total params: 54974 | Trainable params: 54974
 Epoch 001/100 | train_loss 0.038969 | val_MAPE 0.2135 | val_MAE 0.085794 | val_RMSE 0.121083
 ---> best val_MAE = 0.085794 (epoch 1)
 Epoch 002/100 | train_loss 0.011039 | val_MAPE 0.1889 | val_MAE 0.074928 | val_RMSE 0.108342

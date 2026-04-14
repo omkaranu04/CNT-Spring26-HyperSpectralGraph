@@ -1,6 +1,6 @@
 Using device: cuda
 Dataset: COVID | N = 55 | T_in=12 | T_out=6
-Model: FreqTimeHPG | Total params: 53860 | Trainable params: 53860
+Model: HSG | Total params: 53860 | Trainable params: 53860
 Epoch 001/100 | train_loss 0.158404 | val_MAPE 1.6546 | val_MAE 0.176875 | val_RMSE 0.225272
 ---> best val_MAE = 0.176875 (epoch 1)
 Epoch 002/100 | train_loss 0.077709 | val_MAPE 1.6145 | val_MAE 0.146105 | val_RMSE 0.185779

@@ -1,6 +1,6 @@
 Using device: cuda
 Dataset: TRAFFIC | N = 17544 | T_in=12 | T_out=12
-Model: FreqTimeHPG | Total params: 124590 | Trainable params: 124590
+Model: HSG | Total params: 124590 | Trainable params: 124590
 Epoch 001/100 | train_loss 0.027456 | val_MAPE 0.8580 | val_MAE 0.093063 | val_RMSE 0.137319
 ---> best val_MAE = 0.093063 (epoch 1)
 Epoch 002/100 | train_loss 0.017251 | val_MAPE 0.7747 | val_MAE 0.089338 | val_RMSE 0.135531
